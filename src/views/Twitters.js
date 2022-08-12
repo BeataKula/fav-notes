@@ -13,7 +13,6 @@ class Twitters extends Component {
 
   render() {
     const { twitters } = this.props;
-
     return (
       <GridTemplate>
         {twitters.map(({ title, content, twitterName, _id: id }) => (
