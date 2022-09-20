@@ -100,7 +100,7 @@ class GridTemplate extends Component {
           <StyledPageHeader>
             <Input search placeholder="Search" />
             <StyledHeading big as="h1">
-              {pageContext}
+              Fav {pageContext}
             </StyledHeading>
             <StyledParagraph>6 {pageContext}</StyledParagraph>
           </StyledPageHeader>
